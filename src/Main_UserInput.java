@@ -37,7 +37,7 @@ public class Main_UserInput
 
     }
 
-    // Method to get a valid number input
+    // Vérifier si l'usager a entré un nombre entier
     private static int getValidNumber(Scanner sc) {
         while (true) {
             if (sc.hasNextInt()) {
