@@ -10,8 +10,6 @@ public class Car
     String model;
     int year;
 
-
-
     //Constructeur
     public Car()
     {
@@ -76,7 +74,7 @@ Il s'agit d'une redefinition de la méthode toString qui existe déjà en java
     @Override
     public String toString()
     {
-        return "[" + "carId=" + carId + " make='" + make + " model='" +model +"'" + " Year: " + year + "]";
+        return "[" + "carId=" + carId + " make='" + make + "'" +  "model='" +model +"'" + " Year: " + year + "]";
     }
 
 
