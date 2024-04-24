@@ -12,9 +12,7 @@ public class Car
 
     //Constructeur
     public Car()
-    {
-
-    }
+    { }
     public Car(String make)
     {
 
