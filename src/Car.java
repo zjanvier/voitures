@@ -70,6 +70,7 @@ public class Car
 Cette méthode a été définie pour permettre de pouvoir afficher
 les données d'une voiture (sinon l'affichage devrait montrer l'objet car)
 Il s'agit d'une redefinition de la méthode toString qui existe déjà en java
+(la methode toString existe dans la classe object de java)
  */
     @Override
     public String toString()
